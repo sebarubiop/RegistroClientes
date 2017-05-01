@@ -10,12 +10,13 @@
 
     'BlurAdmin.pages.register'
   ])
-      .config(routeConfig);
+      .config(routeConfig)
 
   /** @ngInject */
   function routeConfig($urlRouterProvider, baSidebarServiceProvider) {
     $urlRouterProvider.otherwise('/register');
 
   }
+  
 
 })();

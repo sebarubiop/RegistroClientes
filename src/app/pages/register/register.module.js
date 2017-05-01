@@ -11,7 +11,7 @@
         .state('register', {
           url: '/register',
           templateUrl: 'app/pages/register/register.html',
-          title: 'Registro',
+          title: 'Formulario',
           controller: 'RegisterCtrl',
           controllerAs: 'bqctrl'
         });
